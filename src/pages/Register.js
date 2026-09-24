@@ -11,7 +11,7 @@ function Register() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/register",
+        "https://spicererp-be-8jvp.onrender.com/register",
         {
           username,
           email,
@@ -78,9 +78,7 @@ function Register() {
 
         <br />
 
-        <button type="submit">
-          Register
-        </button>
+        <button type="submit">Register</button>
       </form>
     </div>
   );
